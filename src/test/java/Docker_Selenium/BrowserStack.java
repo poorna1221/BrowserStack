@@ -31,7 +31,7 @@ public class BrowserStack {
 	  caps.setCapability("name", "Poorna20.00");
 	  caps.setCapability("browserstack.local", "false");
 	  caps.setCapability("browserstack.selenium_version", "3.5.2");
-
+//TEST
     driver = new RemoteWebDriver(new URL(URL), caps);
    
 
