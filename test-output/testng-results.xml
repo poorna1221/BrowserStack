@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16601" started-at="2019-12-18T22:14:56 AEDT" finished-at="2019-12-18T22:15:13 AEDT">
+  <suite name="Default suite" duration-ms="18617" started-at="2019-12-19T20:18:19 AEDT" finished-at="2019-12-19T20:18:38 AEDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16601" started-at="2019-12-18T22:14:56 AEDT" finished-at="2019-12-18T22:15:13 AEDT">
+    <test name="Default test" duration-ms="18617" started-at="2019-12-19T20:18:19 AEDT" finished-at="2019-12-19T20:18:38 AEDT">
       <class name="Docker_Selenium.BrowserStack">
-        <test-method status="PASS" signature="before()[pri:0, instance:Docker_Selenium.BrowserStack@5abca1e0]" name="before" is-config="true" duration-ms="7817" started-at="2019-12-18T22:14:56 AEDT" finished-at="2019-12-18T22:15:04 AEDT">
+        <test-method status="PASS" signature="before()[pri:0, instance:Docker_Selenium.BrowserStack@5abca1e0]" name="before" is-config="true" duration-ms="10171" started-at="2019-12-19T20:18:19 AEDT" finished-at="2019-12-19T20:18:29 AEDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="test1()[pri:0, instance:Docker_Selenium.BrowserStack@5abca1e0]" name="test1" duration-ms="8739" started-at="2019-12-18T22:15:04 AEDT" finished-at="2019-12-18T22:15:13 AEDT">
+        <test-method status="FAIL" signature="test1()[pri:0, instance:Docker_Selenium.BrowserStack@5abca1e0]" name="test1" duration-ms="8390" started-at="2019-12-19T20:18:29 AEDT" finished-at="2019-12-19T20:18:38 AEDT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Contacts')]"}
@@ -22,8 +22,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'POORNASOWJI-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Windows\proxy\scoped_dir...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:1446}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 79.0.3945.79, webStorageEnabled: true}
-Session ID: 33392466be9aff8390c5f23a08d11634d95ed975
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Windows\proxy\scoped_dir...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:1467}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 79.0.3945.79, webStorageEnabled: true}
+Session ID: 38814cf124dea6b25145a2493a1250ab61b9cf67
 *** Element info: {Using=xpath, value=//span[contains(text(),'Contacts')]}]]>
             </message>
             <full-stacktrace>
@@ -35,8 +35,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'POORNASOWJI-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Windows\proxy\scoped_dir...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:1446}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 79.0.3945.79, webStorageEnabled: true}
-Session ID: 33392466be9aff8390c5f23a08d11634d95ed975
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Windows\proxy\scoped_dir...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:1467}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 79.0.3945.79, webStorageEnabled: true}
+Session ID: 38814cf124dea6b25145a2493a1250ab61b9cf67
 *** Element info: {Using=xpath, value=//span[contains(text(),'Contacts')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
